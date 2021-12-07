@@ -1,0 +1,27 @@
+
+In this project i used a Design Pattern-Factory Method.
+This Design Pattern allows the application to be extended in terms of the rented object but also in terms of type for each property.
+
+
+For example- if we want to hire hotel rooms(single room, double room):
+
+    First i'll create a new file "TypesHotelRooms", after i'll create a new interface HotelRoom.
+    This interface have a method which return type of hotelRoom.
+    In the same folder i'll create different class for another type of rooms.
+    In the Controller folder i'll create a new class "ControllerHotelRoom" which chose type of rooms and the method
+will return a new object of singleRoom or doubleRoom.
+
+    Because the classes from the "HistoryApp" folder are independent, for register the hires of a new type of object, i'll create
+just a new class in the "TypeReturnReservation" folder which implemented the interface "ReturnReservation".
+
+Conclusion: To rent other things, we just need to extend a few classes and
+            interfaces without making direct changes to the code already written.
+            I try to respect Single-responsibility principle and Open-Closed Principle.
+
+I tried to use the same principles in creating the graphical interface. To extend i'll need just some new buttons and two classes,
+for the example above i'll have a new class HotelReserved and HotelReturn.
+
+
+
+
+

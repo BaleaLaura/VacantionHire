@@ -1,0 +1,7 @@
+Client: 
+    Name: Balea Laura
+    Phone: 0757750335
+    Type Car: Truck
+    Damage: a scratch on the right door
+    Gasoline(YES/NO): Yes
+
